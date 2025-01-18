@@ -2,6 +2,7 @@ import { fontVariables } from '@/shared/lib/fonts';
 import { cn } from '@/shared/lib/utils';
 import type { Metadata } from 'next';
 import './globals.css';
+import { QueryProvider } from '@/shared/providers';
 
 
 export const metadata: Metadata = {
@@ -19,7 +20,9 @@ export default function RootLayout({
       <body
         className={cn(fontVariables, `antialiased`)}
       >
-        {children}
+        <QueryProvider>
+          {children}
+        </QueryProvider>
       </body>
     </html>
   );
