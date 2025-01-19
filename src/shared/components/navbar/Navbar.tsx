@@ -46,7 +46,7 @@ export default function Navbar() {
       >
         <div className="layout flex h-full w-full items-center gap-4">
           <NextImage
-            src="/logo/site-logo.webp"
+            src="/logo/site-logo.png"
             alt="Logo"
             width="100"
             height="80"

@@ -6,10 +6,7 @@ const IdeasCard = ({ title, small_image, created_at }: IIdea) => {
   return (
     <div className="overflow-clip rounded-md bg-white shadow-md">
       <NextImage
-        src={
-          small_image.url ??
-          'https://images.unsplash.com/photo-1735814933921-ab6afbdf5d17?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-        }
+        src={small_image.url ?? '/images/placeholder-image.png'}
         alt={title + '_image'}
         className="relative h-48 w-full"
         fill
