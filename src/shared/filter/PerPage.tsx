@@ -24,6 +24,7 @@ const PerPageFilter = ({
   const handlePerPageChange = (value: string) => {
     const newSearchParams = new URLSearchParams(window.location.search);
     newSearchParams.set('perPage', value);
+    newSearchParams.set('page', '1'); // Reset page to 1
     router.push(`${pathname}?${newSearchParams.toString()}`);
   };
 
