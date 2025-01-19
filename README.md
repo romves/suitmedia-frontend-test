@@ -12,7 +12,7 @@
 ## Demo
 
 Here is a working live website demo:
-[https://suitmedia-frontend-test.nflrmvs.studio](https://www.suitmedia-frontend-test.nflrmvs.studio)
+[https://suitmedia-frontend-test-naufal-romero.nflrmvs.studio](https://suitmedia-frontend-test-naufal-romero.nflrmvs.studio)
 
 ## Installation
 
