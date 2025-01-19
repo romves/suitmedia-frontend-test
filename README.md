@@ -1,5 +1,8 @@
 # Suitmedia Frontend Test Assessment
 
+![image](https://github.com/user-attachments/assets/1bac9925-44a5-4d36-b678-ddeb127fe7e8)
+
+
 ## Table of Contents
 
 - [Demo](#demo)
